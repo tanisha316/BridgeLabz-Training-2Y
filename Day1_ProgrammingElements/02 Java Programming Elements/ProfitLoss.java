@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 public class ProfitLoss {
     public static void main(String[] args) {
         double Cp = 129;
@@ -7,3 +8,14 @@ public class ProfitLoss {
         System.out.println("The Cost Price is INR " + Cp + " and Selling Price in INR " + Sp+"\n The Profit is INR " + profit + " and the Profit Percentage is " + profit_per);
     }
 }
+=======
+public class ProfitLoss {
+    public static void main(String[] args) {
+        double Cp = 129;
+        double Sp = 191;
+        double profit = Sp - Cp;
+        double profit_per = (profit / Cp) * 100;
+        System.out.println("The Cost Price is INR " + Cp + " and Selling Price in INR " + Sp+"\n The Profit is INR " + profit + " and the Profit Percentage is " + profit_per);
+    }
+}
+>>>>>>> 64484dfe97211cc883efa58c4f9c9a83210bbc19
